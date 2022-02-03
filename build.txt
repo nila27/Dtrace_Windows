@@ -8,7 +8,7 @@ https://github.com/microsoft/DTrace-on-Windows/blob/windows/COMPILING.md 이대�
 
 그 후 빌드하면 된다.
 
-현재 wdk11은 vs2019에만 설치가 되므로 dtrace.sys는 vs2019로 열어서 빌드해야한다. 2022로 빌드하면 MSB406 ValidateNtTargetVersion 뭐시기 에러가 뜬다.
+현재 wdk11은 vs2019에만 설치가 되므로 (10.0.22000.1) dtrace.sys는 vs2019로 열어서 빌드해야한다. 2022로 빌드하면 MSB406 ValidateNtTargetVersion 뭐시기 에러가 뜬다.
 
 dll과 exe는 vs2017, 2019, 2022 다 빌드가 잘된다.
 
